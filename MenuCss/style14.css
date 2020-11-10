@@ -1,0 +1,44 @@
+.sisters {
+  float: right;
+}
+table {
+  width: 70%;
+  margin: auto;
+  background-color: #ffeadb;
+  box-sizing: border-box;
+}
+
+td.left_link {
+  width: 25%;
+  vertical-align: top;
+}
+.last {
+  display: flex;
+}
+td div.logo img {
+  margin-left: auto;
+  margin-right: auto;
+  justify-content: center;
+  display: block;
+}
+.heading {
+  text-align: center;
+  background-color: #d2f5e3;
+  margin: 10px 10px;
+  margin-bottom: 30px;
+}
+.today,
+.cloudy {
+  margin: -20px;
+}
+h2 {
+  color: #71c9ce;
+}
+.left_link {
+  background-color: azure;
+}
+.name {
+  color: #ff9a76;
+  font-weight: bolder;
+  font-size: 30px;
+}

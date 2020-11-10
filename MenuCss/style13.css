@@ -1,0 +1,50 @@
+.container {
+  width: 70%;
+  margin: auto;
+}
+table {
+  box-sizing: border-box;
+}
+td.link_list,
+div.link_list {
+  background-image: url(back.jpg);
+  min-height: fit-content;
+  vertical-align: top;
+}
+.basic {
+  border: 2px solid black;
+  float: right;
+  margin: 20px;
+  padding: 10px;
+}
+.title {
+  color: #ffdd93;
+  font-weight: bold;
+  font-size: 30px;
+}
+.paragraph {
+  text-align: justify;
+  padding: 10px;
+}
+.scrap {
+  font-family: fangsong;
+  float: right;
+  font-size: 50px;
+  margin-right: -48px;
+  padding-top: 10px;
+}
+.online {
+  float: right;
+  background-color: #e71414;
+  margin-right: 30px;
+  color: white;
+}
+.address {
+  font-family: monospace;
+  color: burlywood;
+  font-style: italic;
+  text-align: center;
+}
+.link_list ul li a:hover {
+  color: white;
+}

@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      .thead,
+      .tfoot {
+        background-color: blue;
+        color: white;
+      }
+      .tbody tr:nth-child(2n + 1) {
+        background-color: whitesmoke;
+      }
+      .tbody tr:nth-child(2n) {
+        background-color: pink;
+      }
+      .tbody td:hover {
+        background-color: yellow;
+        cursor: pointer;
+      }
+    </style>
+  </head>
+  <body>
+    <table border="1px" cellspacing="1px">
+      <tr class="thead">
+        <th>STT</th>
+        <th>MÃ</th>
+        <th>TÊN</th>
+      </tr>
+      <tr class="tbody">
+        <td>1</td>
+        <td>K174111253</td>
+        <td>Trần Thị Yến Linh</td>
+      </tr>
+      <tr class="tbody">
+        <td>2</td>
+        <td>K174111260</td>
+        <td>Trần Trọng Nghiêm</td>
+      </tr>
+      <tr class="tbody">
+        <td>3</td>
+        <td>K16406845</td>
+        <td>Nguyễn Thiếu Thành Huy</td>
+      </tr>
+      <tr class="tbody">
+        <td>4</td>
+        <td>K16406854</td>
+        <td>Trịnh Thị Hồng Vân</td>
+      </tr>
+      <tr class="tbody">
+        <td>5</td>
+        <td>K184111428</td>
+        <td>Ngyễn Thị Tiên</td>
+      </tr>
+      <tr>
+        <td colspan="3" class="tfoot">Design by Tẻo Đẹp Trai</td>
+      </tr>
+    </table>
+  </body>
+</html>
