@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="css/bai2.css" type="text/css" />
+  </head>
+  <body>
+    <form action="">
+      <table>
+        <tr>
+          <td colspan="3">
+            <h2>Online Classified Search Form</h2>
+          </td>
+        </tr>
+        <tr>
+          <td colspan="3">
+            <hr />
+          </td>
+        </tr>
+        <tr>
+          <td colspan="3">
+            1) Search for a classified in the following sections
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <input type="radio" name="section" value="employ" />
+            <label for="employ">Employment</label>
+            <br />
+            <input type="radio" name="section" value="sale" checked="check" />
+            <label for="sale">For Sale</label>
+            <br />
+            <input type="radio" name="section" value="house" />
+            <label for="house">Housing</label>
+          </td>
+          <td>
+            <input type="radio" name="section" value="person" />
+            <label for="person">Personal</label>
+            <br />
+            <input type="radio" name="section" value="miscell" />
+            <label for="miscell">Miscellanecus</label>
+            <br />
+            <input type="radio" name="section" value="all" />
+            <label for="all">All of the above</label>
+          </td>
+          <td></td>
+        </tr>
+        <tr>
+          <td colspan="3">2) Search the following public punbblications:</td>
+        </tr>
+        <tr>
+          <td>
+            <input type="checkbox" name="public" value="midwest" />
+            <label for="midwest">Midwest times</label>
+            <br />
+            <input type="checkbox" name="public" value="great" />
+            <label for="great">Great Lakes Classified</label>
+          </td>
+          <td>
+            <input type="checkbox" name="public" value="modern" />
+            <label for="modern">Modern News</label>
+            <br />
+            <input type="checkbox" name="public" value="middle" />
+            <label for="middle">Middleton Daily</label>
+          </td>
+          <td>
+            <input type="checkbox" name="public" value="cash" />
+            <label for="cash">Cashtown Daily News</label>
+            <br />
+            <input type="checkbox" name="public" value="emtoday" />
+            <label for="emtoday">Employment Today</label>
+          </td>
+        </tr>
+        <tr>
+          <td colspan="3">
+            <label for="">3) From to</label>
+            <input type="date" id="day" name="day" />
+
+            to
+            <input type="date" id="day" name="day" />
+          </td>
+        </tr>
+        <tr>
+          <td colspan="3">4) Enter a few keyword to descibe the classified.</td>
+        </tr>
+        <tr>
+          <td colspan="3">
+            <textarea name="key" id="key" cols="100" rows="1"></textarea>
+          </td>
+        </tr>
+        <tr>
+          <td colspan="3">5) Click one of the options below:</td>
+        </tr>
+        <tr>
+          <td>
+            <button type="submit" onclick="myFunction()">
+              <img src="image/search.png" id="search" />
+              <br />
+              Search
+            </button>
+
+            <button type="button" id="help" name="help">
+              <img src="image/help.png" /><br />Help
+            </button>
+
+            <button type="reset">
+              <img src="image/close.png" alt="" /><br />Reset
+            </button>
+          </td>
+        </tr>
+      </table>
+    </form>
+    <script src="js/button.js"></script>
+  </body>
+</html>

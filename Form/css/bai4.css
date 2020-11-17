@@ -1,0 +1,18 @@
+table {
+  margin: auto;
+}
+td {
+  vertical-align: top;
+}
+body {
+  background-color: #16a596;
+}
+td div {
+  display: flex;
+}
+.slname {
+  display: flex;
+}
+.btn {
+  justify-content: center;
+}

@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="css/bai4.css" />
+  </head>
+  <body>
+    <form action="">
+      <table>
+        <tr>
+          <td>
+            <img src="image/Logo.gif" alt="" />
+          </td>
+        </tr>
+        <tr>
+          <td colspan="2">
+            <h2 style="text-align: center; color: #fff">
+              Newborn Registration
+            </h2>
+          </td>
+        </tr>
+        <tr>
+          <td colspan="2">Date: <input type="date" name="date" id="date" /></td>
+        </tr>
+        <tr>
+          <td colspan="2">
+            1) Infant's first name:
+            <input type="text" name="fsname" id="fsname" /> Last:
+            <input type="text" name="lsname" id="lsname" />
+          </td>
+        </tr>
+        <tr>
+          <td colspan="2">
+            2) Medical Record #:
+            <input type="text" name="medical" id="medical" />
+          </td>
+        </tr>
+        <tr>
+          <td colspan="2">
+            3) date of birth: <input type="date" name="birth" id="birth" />
+          </td>
+        </tr>
+        <tr>
+          <td colspan="2">
+            4) Birth Weight: <input type="text" name="weight" id="weight" />
+          </td>
+        </tr>
+        <tr>
+          <td colspan="2">
+            5) APGAR score: <input type="text" name="apgar" id="apgar" />
+          </td>
+        </tr>
+        <tr>
+          <td colspan="2">
+            6) Mother's first name:
+            <input type="text" name="mother" id="mother" />
+            Last
+            <input type="text" name="lsmom" id="lsmom" />
+          </td>
+        </tr>
+        <tr>
+          <td colspan="2">
+            7) Father's first name:
+            <input type="text" name="mother" id="mother" />
+            Last
+            <input type="text" name="lsmom" id="lsmom" />
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <div>
+              <div>8) Physician (check all that apply)</div>
+              <div class="slname">
+                <select name="physician" id="physician" size="4">
+                  <option value="warren">Dr.Warren Albert</option>
+                  <option value="maria">Dr.Maria Alvarez</option>
+                  <option value="karen">Dr.Karen Brinkaman</option>
+                  <option value="micheal">Dr.Micheal Kerry</option>
+                </select>
+              </div>
+            </div>
+          </td>
+        </tr>
+        <tr>
+          <td colspan="2">
+            <div class="btn">
+              <input
+                type="submit"
+                value="Register"
+                id="regis"
+                onclick="myFunction()"
+              />
+              <input type="reset" value="Cancel" id="cancel" />
+            </div>
+          </td>
+        </tr>
+      </table>
+    </form>
+    <script src="js/button.js"></script>
+  </body>
+</html>

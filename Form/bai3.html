@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="css/bai3.css" />
+  </head>
+  <body>
+    <form action="">
+      <table>
+        <tr>
+          <td style="text-align: center">
+            <img src="image/DeLong.jpg" />
+          </td>
+        </tr>
+        <tr>
+          <td style="font-weight: bold; font-size: 30px">
+            Travel Expense Report
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <hr />
+          </td>
+        </tr>
+        <tr>
+          <td>
+            1) First Name:
+            <input type="text" name="fsname" id="fsname" />
+            Last Name:
+            <input type="text" id="lsname" name="lsname" />
+          </td>
+        </tr>
+        <tr>
+          <td>
+            2) Social Security Number:
+            <input type="number" name="number" id="number" />
+          </td>
+        </tr>
+        <tr>
+          <td>
+            3) Department:
+            <select name="depart" id="depart">
+              <option value="account">Accounting</option>
+            </select>
+          </td>
+        </tr>
+        <tr>
+          <td>4) Describe the purpose of your trip.</td>
+        </tr>
+        <tr>
+          <td>
+            <textarea name="" id="" cols="100" rows="5"></textarea>
+          </td>
+        </tr>
+        <tr>
+          <td>5) Itemize your travel expense</td>
+        </tr>
+        <tr>
+          <td>
+            <table border="1">
+              <tr>
+                <td>Date</td>
+                <td>Desciption</td>
+                <td>Category</td>
+                <td>Amount</td>
+              </tr>
+              <tr>
+                <td><input type="date" name="day" id="day" /></td>
+                <td><textarea name="" id="" cols="10" rows="1"></textarea></td>
+                <td>
+                  <select name="category" id="category">
+                    <option value="meal">Meal</option>
+                  </select>
+                </td>
+                <td><input type="text" name="amount" id="amount" /></td>
+              </tr>
+              <tr>
+                <td><input type="date" name="day" id="day" /></td>
+                <td><textarea name="" id="" cols="10" rows="1"></textarea></td>
+                <td>
+                  <select name="category" id="category">
+                    <option value="meal">Meal</option>
+                  </select>
+                </td>
+                <td><input type="text" name="amount" id="amount" /></td>
+              </tr>
+              <tr>
+                <td><input type="date" name="day" id="day" /></td>
+                <td><textarea name="" id="" cols="10" rows="1"></textarea></td>
+                <td>
+                  <select name="category" id="category">
+                    <option value="meal">Meal</option>
+                  </select>
+                </td>
+                <td><input type="text" name="amount" id="amount" /></td>
+              </tr>
+              <tr>
+                <td><input type="date" name="day" id="day" /></td>
+                <td><textarea name="" id="" cols="10" rows="1"></textarea></td>
+                <td>
+                  <select name="category" id="category">
+                    <option value="meal">Meal</option>
+                  </select>
+                </td>
+                <td><input type="text" name="amount" id="amount" /></td>
+              </tr>
+            </table>
+          </td>
+        </tr>
+        <tr>
+          <td>
+            6) Have you submit you receipts
+            <input type="radio" name="submit" value="yes" /> Yes
+            <input type="radio" name="submit" value="no" />No
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <input
+              type="submit"
+              value="Submit travel expenses"
+              name="enter"
+              onclick="myFunction()"
+            />
+            <input type="reset" value="Reset" name="reset" />
+          </td>
+        </tr>
+        <tr>
+          <td>Questions? contact Debbie Larson in Accounting (ext. 2150)</td>
+        </tr>
+      </table>
+    </form>
+    <script src="js/button.js"></script>
+  </body>
+</html>

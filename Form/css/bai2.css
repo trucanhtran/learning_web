@@ -1,0 +1,13 @@
+table {
+  width: 70%;
+  margin: auto;
+}
+td {
+  width: 280px;
+}
+body {
+  background-color: aliceblue;
+}
+h2 {
+  color: red;
+}

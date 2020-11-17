@@ -1,0 +1,26 @@
+.container {
+  margin: auto;
+  justify-content: center;
+  background-color: azure;
+}
+.pic {
+  margin-left: 500px;
+  margin-right: 500px;
+}
+body {
+  background-color: azure;
+}
+.form {
+  text-align: center;
+}
+.main table {
+  margin: auto;
+}
+hr {
+  color: red;
+  margin: auto;
+  width: 60%;
+}
+.use {
+  vertical-align: top;
+}
